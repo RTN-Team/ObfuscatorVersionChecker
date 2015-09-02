@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObfuscatorVersionChecker", "ObfuscatorVersionChecker\ObfuscatorVersionChecker.csproj", "{D856D998-3930-4A19-961B-CE1C266D1DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckerPlugin", "CheckerPlugin\CheckerPlugin.csproj", "{0DA5B4B8-6C96-460E-8764-37AD78C669F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{AD921941-B087-456F-8ACB-2ABFB6F92617}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckerUtils", "CheckerUtils\CheckerUtils.csproj", "{00FC6FDC-30AD-459F-8DA9-BD1EF0B422FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgileNET.Plugin", "AgileNET.Plugin\AgileNET.Plugin.csproj", "{35B5277E-1CE9-46FE-B20D-FB63CCEFD6F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObfuscatorVersionChecker.CUI", "ObfuscatorVersionChecker.CUI\ObfuscatorVersionChecker.CUI.csproj", "{D4A085D0-9CFB-4916-BF7C-1E2F6A2B76EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILProtector.Plugin", "ILProtector.Plugin\ILProtector.Plugin.csproj", "{67E16CE5-9429-4C34-B31E-E30AB2D99E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoObfuscator.Plugin", "CryptoObfuscator.Plugin\CryptoObfuscator.Plugin.csproj", "{50F762AA-A962-479E-847E-B4706A59944C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D856D998-3930-4A19-961B-CE1C266D1DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D856D998-3930-4A19-961B-CE1C266D1DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D856D998-3930-4A19-961B-CE1C266D1DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D856D998-3930-4A19-961B-CE1C266D1DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DA5B4B8-6C96-460E-8764-37AD78C669F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DA5B4B8-6C96-460E-8764-37AD78C669F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DA5B4B8-6C96-460E-8764-37AD78C669F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DA5B4B8-6C96-460E-8764-37AD78C669F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00FC6FDC-30AD-459F-8DA9-BD1EF0B422FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00FC6FDC-30AD-459F-8DA9-BD1EF0B422FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00FC6FDC-30AD-459F-8DA9-BD1EF0B422FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00FC6FDC-30AD-459F-8DA9-BD1EF0B422FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B5277E-1CE9-46FE-B20D-FB63CCEFD6F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B5277E-1CE9-46FE-B20D-FB63CCEFD6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B5277E-1CE9-46FE-B20D-FB63CCEFD6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B5277E-1CE9-46FE-B20D-FB63CCEFD6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4A085D0-9CFB-4916-BF7C-1E2F6A2B76EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4A085D0-9CFB-4916-BF7C-1E2F6A2B76EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4A085D0-9CFB-4916-BF7C-1E2F6A2B76EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4A085D0-9CFB-4916-BF7C-1E2F6A2B76EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67E16CE5-9429-4C34-B31E-E30AB2D99E34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67E16CE5-9429-4C34-B31E-E30AB2D99E34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67E16CE5-9429-4C34-B31E-E30AB2D99E34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67E16CE5-9429-4C34-B31E-E30AB2D99E34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50F762AA-A962-479E-847E-B4706A59944C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50F762AA-A962-479E-847E-B4706A59944C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50F762AA-A962-479E-847E-B4706A59944C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50F762AA-A962-479E-847E-B4706A59944C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35B5277E-1CE9-46FE-B20D-FB63CCEFD6F8} = {AD921941-B087-456F-8ACB-2ABFB6F92617}
+		{67E16CE5-9429-4C34-B31E-E30AB2D99E34} = {AD921941-B087-456F-8ACB-2ABFB6F92617}
+		{50F762AA-A962-479E-847E-B4706A59944C} = {AD921941-B087-456F-8ACB-2ABFB6F92617}
+	EndGlobalSection
+EndGlobal

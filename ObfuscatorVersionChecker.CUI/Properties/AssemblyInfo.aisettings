@@ -1,0 +1,3 @@
+[assembly: AutoVersion("DoNothing.DoNothing.DoNothing.DoNothing")]
+[assembly: AutoFileVersion("DoNothing.DoNothing.DoNothing.DoNothing")]
+[assembly: AutoInformationalVersion("DoNothing.DoNothing.DoNothing.DoNothing")]
