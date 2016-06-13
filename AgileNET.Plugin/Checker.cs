@@ -95,7 +95,7 @@ namespace AgileNET.Plugin
             }
             if (latest.CreationTime != DateTime.MinValue || latest.Length != 0)
                 EventStart(this, new PluginEventArgs(string.Format("Version: {0} (Date: {1}, Length: {2})", latest.Version, latest.CreationTime, latest.Length)));
-            return PluginExecuteResult.Successfull;
+            return PluginExecuteResult.Successful;
         }
 
         public void Start()
@@ -217,7 +217,7 @@ namespace AgileNET.Plugin
         {
             bool result = Cancel();
             settings.Save(Default.Name);
-            return result ? PluginExecuteResult.Successfull : PluginExecuteResult.Failed;
+            return result ? PluginExecuteResult.Successful : PluginExecuteResult.Failed;
         }
 
         public override string ToString()
